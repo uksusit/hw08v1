@@ -1,0 +1,38 @@
+/* menu filter portfolio   ----------------------------------------------     */
+
+.menu-filter {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.menu-filter__item {
+    display: inline-block;
+    
+    &:not(:first-of-type) {
+    margin-left: 8px; }
+}
+
+
+.btn.filter {
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.625;
+    letter-spacing: 0.48px;
+    padding: 6px 22px 6px;
+    color: var(--main-text-color);
+    background: var(--btn-bg-color);
+    transition-property: color, bacground, background-color, box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+    color: var(--white-color);
+    background-color: var(--blue-color);
+    box-shadow: 0px 4px 4px 0px var(--btn-shadow);
+        }
+}
+

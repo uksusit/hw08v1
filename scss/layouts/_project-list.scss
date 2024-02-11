@@ -1,0 +1,18 @@
+/* project-list */
+
+.pjcts img {
+    display: block;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    /* outline: 1px solid red; */
+}
+
+.projects li {
+    background: #FFF;
+    /* outline: 1px solid red; */
+}

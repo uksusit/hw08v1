@@ -1,0 +1,50 @@
+/* footer address */
+
+.address {
+    margin-top: 20px;
+    width: 231px;
+    ;
+}
+
+.ftr-adr {
+    /* outline: 1px solid red; */
+    box-sizing: content-box;
+}
+
+/* .ftr-adr  li {      
+     outline: 1px solid red;
+} */
+.ftr-adr__item:not(:first-of-type) {
+    margin-top: 9px;
+}
+
+.addr-gmap {
+    line-height: 1.71429;
+    letter-spacing: 0.42px;
+    color: var(--white-color);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    /* background-color: var(--footer-bg-color); */
+    
+    &:focus,
+    &:hover {
+        color: var(--blue-color);
+        /* background-color: var(--white-color); */
+    }
+}
+
+.footer-cont {
+    line-height: 1.71429;
+    letter-spacing: 0.42px;
+    color: var(--footer-text);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:focus,
+    &:hover {
+    color: var(--blue-color);
+    /* background-color: var(--white-color); */
+        }
+}

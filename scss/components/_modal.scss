@@ -1,0 +1,53 @@
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 528px;
+    height: 581px;
+    border-radius: 4px;
+    background: var(--white-color);
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    padding: 40px;
+}
+
+.modal__close {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    background-color: var(--white-color);
+    border-radius: 50%;
+    border-width: thin;
+    border-color: rgba(0, 0, 0, 0.10);
+    box-shadow: none;
+    transition-property: border-color, fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+            fill: var(--blue-color);
+            cursor: pointer;
+            /* border-color: var(--blue-color) ; */
+        }
+}
+
+.modal__close-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 18px;
+    height: 18px;
+    /* flex-shrink: 0; */
+}
+
+// .modal__close:hover,
+// .modal__close:focus {
+//     fill: var(--blue-color);
+//     cursor: pointer;
+//     /* border-color: var(--blue-color) ; */
+// }

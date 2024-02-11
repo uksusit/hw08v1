@@ -1,0 +1,17 @@
+/* logo */
+.logo {
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0.78px;
+    color: var(--blue-color);
+}
+
+.logo span {
+    color: var(--black-color);
+}
+
+/* logo-span footer */
+footer .logo span {
+    color: var(--white-color);
+}
